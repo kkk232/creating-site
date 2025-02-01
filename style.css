@@ -111,3 +111,27 @@ button{
     gap: 5px;
     color: grey;
 }
+
+/* quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.text, .god {
+    width: 700px;
+}
+.god {
+    text-align: end;
+    font-weight: 900;
+    font-size: 23px;
+}
+.quote .text {
+    font-size: 36px;
+}
