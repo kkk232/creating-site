@@ -72,3 +72,42 @@ button{
     font-size: 18px;
     gap: 10px;
 }
+
+/* Information */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.information {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.img img {
+    border-radius: 15px;
+    background-color: blue;
+    padding: 3px;
+}
+.img {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    text-align: center;
+    gap: 5px;
+    color: grey;
+}
