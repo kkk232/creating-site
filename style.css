@@ -174,3 +174,15 @@ a {
     border: 2px solid white;
     color: white;
 }
+
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
